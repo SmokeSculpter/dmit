@@ -25,7 +25,7 @@ export default function Slides({ nav, display, information, counter }){
             <div className="slide">
                 <div className="content">
                     <div className="card">
-                        <h1>Compesation123</h1>
+                        <h1>Compesation</h1>
                     </div>
                     <div className="info"></div>
                 </div>
