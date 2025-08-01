@@ -42,11 +42,11 @@ function App () {
         <img id="logo" src={logo} alt="Nait Logo" style={{width: "50px", height: "65px"}}/>
         {/* Nav bar */}
         <div className="nav-bar">
-          <div onClick={() => setNav(1)} className={nav == 1 ? "section a" : "section"}>Software Development</div>
+          <div onClick={() => {setNav(1); setCounter(1)}} className={nav == 1 ? "section a" : "section"}>Software Development</div>
           <div>|</div>
-          <div onClick={() => setNav(2)} className={nav == 2 ? "section a" : "section"}>Web Design</div>
+          <div onClick={() => {setNav(2); setCounter(1)}} className={nav == 2 ? "section a" : "section"}>Web Design</div>
           <div>|</div>
-          <div onClick={() => setNav(3)} className={nav == 3 ? "section a" : "section"}>Game Programming</div>
+          <div onClick={() => {setNav(3); setCounter(1)}} className={nav == 3 ? "section a" : "section"}>Game Programming</div>
         </div>
       </div>
       {/* Slides */}
