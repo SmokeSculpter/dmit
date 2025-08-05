@@ -27,7 +27,7 @@ export default function Slides({ nav, display, information, counter }){
                     <div className="card">
                         <h1>Compesation</h1>
                     </div>
-                    <div className="info"></div>
+                    <div className="info">{information["Compensation"]}</div>
                 </div>
             </div>
             <div className="slide">
@@ -35,7 +35,9 @@ export default function Slides({ nav, display, information, counter }){
                     <div className="card">
                         <h1>Job Opportunities</h1>
                     </div>
-                    <div className="info"></div>
+                    <div className="info">
+                        {information["Job Opportunities"]}
+                    </div>
                 </div>
             </div>
             <div className="slide">
@@ -43,7 +45,9 @@ export default function Slides({ nav, display, information, counter }){
                     <div className="card">
                         <h1>Career Progression</h1>
                     </div>
-                    <div className="info"></div>
+                    <div className="info">
+                        {information["Career Progression"]}
+                    </div>
                 </div>
             </div>
             <div className="slide">
@@ -51,7 +55,9 @@ export default function Slides({ nav, display, information, counter }){
                     <div className="card">
                         <h1>Work Environment</h1>
                     </div>
-                    <div className="info"></div>
+                    <div className="info">
+                        {information["Work Environment"]}
+                    </div>
                 </div>
             </div>
         </div>
