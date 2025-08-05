@@ -41,10 +41,6 @@ function App () {
         <p className="sd-info">Specializes in creating applications for mobile devices like smartphones or tablets.</p>
         <p className="sd-head">ML/AI Developer</p>
         <p className="sd-info">Specializes in AI applications, integrating, and implementing, AI models algorithms.</p>
-        <p className="sd-head">Systems Analysts</p>
-        <p className="sd-info">Overlook computer systems hardware and software components and improve and design for its efficiency.</p>
-        <p className="sd-head">Information Security Analyst</p>
-        <p className="sd-info">Protects an organization's computer networks, systems and data from threats and security breaches.</p>
       </div>,
       "Career Progression" : 
       <div className="career-progression">
