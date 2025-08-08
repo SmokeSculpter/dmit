@@ -162,6 +162,16 @@ function App () {
       <div className="sd-jobs">
         <p className="sd-head">Game Programmer</p>
         <p className="sd-info">Builds core game systems like mechanics, physics, UI, and debugging across different roles.</p>
+        <p className="sd-head">Gameplay, UI, and Input Programmer</p>
+        <p className="sd-info">Includes building the player's actions, game mechanics like combat, and how control feel.</p>
+        <p className="sd-head">Network Programmer</p>
+        <p className="sd-info">Handles multiplayer systems, like matchmaking, server stability, and lag managment.</p>
+        <p className="sd-head">Engine Programmer</p>
+        <p className="sd-info">Improve the game engine's performance. Works behind the scenes on rendering, and optimization inside the game engine.</p>
+        <p className="sd-head">VR Programmer</p>
+        <p className="sd-info">For those into virtual reality, this role builds immersive experiences and optimizes them for smooth gameplay.</p>
+        <p className="sd-head">Tools Developer</p>
+        <p className="sd-info">Creates internal tools to help the rest of the team, like level editors or debugging interfaces.</p>
       </div>,
       "Career Progression" : 
       <div className="career-progression">
